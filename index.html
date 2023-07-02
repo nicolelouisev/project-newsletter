@@ -1,323 +1,333 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+    <head>
+        <meta name="author" content="Nicole Valletta" />
+        <meta name="description" content="Este site foi desenvolvido como projeto para módulo HTML do Bootcamp Java Full Stack" />
+        <meta name="keywords" content="html, internet, notícias, jornalismo" />
+        <meta charset="UTF-8" />
+        <meta property="og:title" content="PortoNews - Um portal de notícias seguro para você" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:image:alt" content="" />
+        <meta property="og:url" content="https://nicolelouisev.github.io/project-newsletter" />
+        <meta property="og:description" content="As últimas notícias e artigos recentes sobre tecnologia, economia, saúde e muito mais." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/index.css" />
+        <title>PortoNews</title>
+    </head>
 
-<head>
-    <meta name="author" content="Nicole Valletta" />
-    <meta name="description"
-        content="Este site foi desenvolvido como projeto para módulo HTML do Bootcamp Java Full Stack" />
-    <meta name="keywords" content="html, internet, notícias, jornalismo" />
-    <meta charset="UTF-8" />
-    <meta property="og:title" content="PortoNews - Um portal de notícias seguro para você" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="400" />
-    <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="" />
-    <meta property="og:url" content="https://nicolelouisev.github.io/project-newsletter" />
-    <meta property="og:description"
-        content="As últimas notícias e artigos recentes sobre tecnologia, economia, saúde e muito mais." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <title>PortoNews</title>
-</head>
-
-<body>
-    <header>
-        <h1>PortoNews</h1>
-        <nav>
-            <a href="#noticias-locais">Notícias locais</a>
-            <a href="#politica">Política</a>
-            <a href="#esportes">Esportes</a>
-            <a href="#entretenimento">Entretenimento</a>
-            <a href="./contato.html">Contato</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <ul>
-                <li><a href="#artigos">Artigos recentes</a></li>
+    <body>
+        <header>
+            <h1>PortoNews</h1>
+            <nav>
+                <a href="#noticias-locais">Notícias locais</a>
+                <a href="#politica">Política</a>
+                <a href="#esportes">Esportes</a>
+                <a href="#entretenimento">Entretenimento</a>
+                <a href="./contato.html">Contato</a>
+            </nav>
+        </header>
+        <main>
+            <section>
                 <ul>
-                    <li><a href="#artigo1">Descoberta revolucionária na área da medicina promete tratar doenças
-                            crônicas</a></li>
-                    <li><a href="#artigo2">Novo estudo revela aumento alarmante de casos de estresse relacionado ao
-                            trabalho</a></li>
+                    <li><a href="#artigos">Artigos recentes</a></li>
+                    <ul>
+                        <li><a href="#artigo1">Descoberta revolucionária na área da medicina promete tratar doenças crônicas</a></li>
+                        <li><a href="#artigo2">Novo estudo revela aumento alarmante de casos de estresse relacionado ao trabalho</a></li>
+                        <li><a href="#artigo3">Novo smartphone com recursos inovadores é lançado no mercado</a></li>
+                        <li><a href="#artigo4">Crescimento econômico impulsiona setor de tecnologia e gera oportunidades de emprego</a></li>
+                        <li><a href="#artigo5">Nova descoberta científica revela potencial para tratamento revolucionário de doenças</a></li>
+                        <li><a href="#artigo6">Projeto inovador busca combater a poluição dos oceanos com tecnologia avançada</a></li>
+                        <li><a href="#artigo7">Estudo revela os benefícios da atividade física regular para a saúde mental</a></li>
+                        <li><a href="#artigo8">Avanços tecnológicos prometem revolucionar o setor de transporte urbano</a></li>
+                        <li><a href="#artigo9">Exposição de arte contemporânea traz reflexões sobre identidade e diversidade</a></li>
+                        <li><a href="#artigo10">Cientistas descobrem nova espécie de planta com propriedades medicinais</a></li>
+                    </ul>
+                    <li><a href="#melhores-autores">Melhores autores</a></li>
+                    <li><a href="#assista-video">Assista em vídeo</a></li>
+                    <li><a href="#noticias-populares">Notícias mais populares</a></li>
                 </ul>
-                <li><a href="#melhores-autores">Melhores autores</a></li>
-                <li><a href="#assista-video">Assista em vídeo</a></li>
-                <li><a href="#noticias-populares">Notícias mais populares</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2 title="cabeçalho" id="artigos">Artigos recentes</h2>
-            <article>
-                <h3 id="artigo1">Descoberta revolucionária na área da medicina promete tratar doenças crônicas</h3>
-                <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-4.0.3"
-                    alt="imagem do produto Mac mini" width="250" />
-                <p>
-                    Pesquisadores anunciaram uma descoberta revolucionária na área da medicina que pode ter um impacto
-                    significativo no tratamento de doenças crônicas. Um novo medicamento,
-                    desenvolvido após anos de pesquisa intensiva, mostrou resultados promissores em testes clínicos.
-                    <a href="./pages/artigo1.html">Saiba mais</a>
-                </p>
-            </article>
-            <article>
-                <h3 id="artigo2">Novo estudo revela aumento alarmante de casos de estresse relacionado ao trabalho</h3>
-                <img src="https://images.unsplash.com/photo-1621252179027-94459d278660?ixlib=rb-4.0.3"
-                    alt="imagem de uma mulher sentada em uma mesa de escritório, em frente a notebook, com as mãos na cabeça demonstrando estresse"
-                    width="250">
-                <p>
-                    Um novo estudo revelou um aumento alarmante nos casos de estresse relacionado ao trabalho em todo o
-                    mundo. Pesquisadores analisaram dados de diferentes setores e constataram
-                    que o estresse ocupacional está se tornando uma questão cada vez mais preocupante.
-                    <a href="">Saiba mais</a>
-                </p>
-            </article>
-            <article>
-                <h3 id="artigo3">Novo smartphone com recursos inovadores é lançado no mercado</h3>
-                <img src="https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-4.0.3"
-                    alt="imagem de tela de celular onde diversos ícones aplicativos são visíveis" width="250">
-                <p>Uma renomada empresa de tecnologia acaba de lançar seu mais recente smartphone, que promete
-                    revolucionar o mercado. Com recursos inovadores e um design elegante, o novo dispositivo oferece uma
-                    experiência única aos usuários.
-                    <a href="">Saiba mais</a>
-                </p>
-            </article>
-            <article>
-                <h3 id="artigo4">Crescimento econômico impulsiona setor de tecnologia e gera oportunidades de emprego
-                </h3>
-                <img src="https://images.unsplash.com/photo-1614028674026-a65e31bfd27c"
-                    alt="imagem de notebook sob mesa com gráficos que representam crescimento da economia" width="250">
-                <p>O recente crescimento econômico do país está impulsionando o setor de tecnologia, que se tornou um
-                    dos principais motores da economia.
-                    <a href="">Saiba mais</a>
-                </p>
-            </article>
-            <article>
-                <h3 id="artigo5">Nova descoberta científica revela potencial para tratamento revolucionário de doenças
-                </h3>
-                <img src="https://images.unsplash.com/photo-1575468130797-aa950b68aeec" alt="" width="250">
-                <p>Pesquisadores de uma renomada instituição de pesquisa anunciaram a identificação de uma molécula
-                    promissora com propriedades terapêuticas.
-                    <a href="">Saiba mais</a>
-                </p>
-            </article>
-            <article>
-                <h3 id="artigo6">Artigo 6</h3>
-                <img src="" alt="" width="250">
-                <p>Lorem</p>
-            </article>
-            <article>
-                <h3 id="artigo7">Artigo 7</h3>
-                <img src="" alt="" width="250">
-                <p>Lorem</p>
-            </article>
-            <article>
-                <h3 id="artigo8">Artigo 8</h3>
-                <img src="" alt="" width="250">
-                <p>Lorem</p>
-            </article>
-            <article>
-                <h3 id="artigo9">Artigo 8</h3>
-                <img src="" alt="" width="250">
-                <p>Lorem</p>
-            </article>
-            <article>
-                <h3 id="artigo10">Artigo 8</h3>
-                <img src="" alt="" width="250">
-                <p>Lorem</p>
-            </article>
-        </section>
-        <section>
-            <h2 id="melhores-autores">Classificação dos melhores autores de notícias</h2>
-            <ol>
-                <li>João Silva (245 artigos)</li>
-                <li>Maria Santos (201 artigos)</li>
-                <li>Carlos Oliveira (178 artigos)</li>
-                <li>Ana Costa (162 artigos)</li>
-                <li>Pedro Fernandes (148 artigos)</li>
-                <li>Laura Almeida (134 artigos)</li>
-                <li>André Lima (120 artigos)</li>
-                <li>Sofia Pereira (107 artigos)</li>
-            </ol>
-        </section>
-        <section>
-            <h2 id="assista-video">Assista notícias em vídeo</h2>
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/Z-8M2tuPSn4"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/koh90HN__FY"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/j2r0lqrzzZA"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
-        </section>
-        <section>
-            <h2 id="noticias-populares">Notícias mais populares da semana</h2>
-            <table border="1px">
-                <thead>
-                    <tr>
-                        <th>Título da notícia</th>
-                        <th>Data</th>
-                        <th>Visualizações</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Descoberta revolucionária na área da medicina</td>
-                        <td>25/06/2023</td>
-                        <td>1,245,678</td>
-                    </tr>
-                    <tr>
-                        <td>Novo filme de ação quebra recordes de bilheteria</td>
-                        <td>24/06/2023</td>
-                        <td>1,102,543</td>
-                    </tr>
-                    <tr>
-                        <td>Resultados do campeonato de futebol surpreendem fãs</td>
-                        <td>23/06/2023</td>
-                        <td>987,321</td>
-                    </tr>
-                    <tr>
-                        <td>Lançamento do novo smartphone revoluciona o mercado</td>
-                        <td>22/06/2023</td>
-                        <td>856,721</td>
-                    </tr>
-                    <tr>
-                        <td>Celebridades comparecem ao tapete vermelho do evento</td>
-                        <td>21/06/2023</td>
-                        <td>765,432</td>
-                    </tr>
-                    <tr>
-                        <td>Pesquisa revela os melhores destinos turísticos do ano</td>
-                        <td>20/06/2023</td>
-                        <td>654,321</td>
-                    </tr>
-                    <tr>
-                        <td>Descoberta arqueológica revela segredos do passado</td>
-                        <td>19/06/2023</td>
-                        <td>543,210</td>
-                    </tr>
-                    <tr>
-                        <td>Acordo histórico é assinado entre países vizinhos</td>
-                        <td>18/06/2023</td>
-                        <td>432,109</td>
-                    </tr>
-                    <tr>
-                        <td>Lançamento de livro se torna um fenômeno literário</td>
-                        <td>17/06/2023</td>
-                        <td>321,098</td>
-                    </tr>
-                    <tr>
-                        <td>Artista renomado expõe suas obras em galeria de arte</td>
-                        <td>16/06/2023</td>
-                        <td>210,987</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <section>
-            <h2 id="noticias-locais">Notícias locais</h2>
-            <article>
-                <h3>Novo parque urbano é inaugurado, proporcionando lazer e convívio social</h3>
-                <p>
-                    A prefeitura anunciou a inauguração de um novo parque urbano no coração da cidade. O parque conta
-                    com amplas áreas verdes, trilhas para caminhadas e espaços de lazer para toda
-                    a família. Além disso, haverá eventos culturais e esportivos regulares, proporcionando mais opções
-                    de entretenimento e convívio social para os moradores locais.
-                </p>
-            </article>
-            <article>
-                <h3>Centro histórico passará por revitalização para preservar patrimônio cultural</h3>
-                <p>
-                    Um projeto de revitalização do centro histórico foi aprovado pela câmara municipal. Com o intuito de
-                    preservar o patrimônio arquitetônico e cultural da região, o projeto prevê
-                    a restauração de prédios históricos, a criação de áreas de pedestres e a promoção de eventos
-                    culturais. Essa iniciativa visa reavivar o centro da cidade, tornando-o um destino
-                    atraente para turistas e residentes.
-                </p>
-            </article>
-            <h2 id="politica">Política</h2>
-            <article>
-                <h3>Decreto presidencial busca promover igualdade de gênero no mercado de trabalho</h3>
-                <p>
-                    O presidente assinou um decreto que estabelece medidas para promover a igualdade de gênero no
-                    mercado de trabalho. O decreto incentiva empresas a adotarem políticas de equidade
-                    salarial e a implementarem ações afirmativas para garantir a participação igualitária de mulheres em
-                    cargos de liderança. Essa iniciativa visa combater a discriminação de
-                    gênero e promover uma sociedade mais justa e inclusiva.
-                </p>
-            </article>
-            <article>
-                <h3>Nova lei fortalece o sistema de saúde pública e amplia acesso a tratamentos</h3>
-                <p>
-                    Durante a sessão parlamentar, foi aprovada uma nova lei que visa melhorar o sistema de saúde
-                    pública. A lei destina mais recursos para a construção e modernização de hospitais,
-                    amplia o acesso a tratamentos médicos e estabelece diretrizes para a prevenção de doenças. Com essa
-                    medida, espera-se uma melhoria significativa na qualidade dos serviços de
-                    saúde oferecidos à população.
-                </p>
-            </article>
-            <h2 id="esportes">Esportes</h2>
-            <article>
-                <h3>Time local conquista título estadual com gol no último minuto</h3>
-                <p>
-                    O time local conquistou o título de campeão estadual no último jogo da temporada. Em uma partida
-                    emocionante, a equipe venceu por 2 a 1, com um gol marcado nos acréscimos do
-                    segundo tempo. A vitória coroou uma temporada de grandes performances e dedicação dos jogadores,
-                    deixando os torcedores eufóricos com o resultado.
-                </p>
-            </article>
-            <article>
-                <h3>Cidade sediará importante torneio internacional de tênis</h3>
-                <p>
-                    A cidade será sede de um importante torneio internacional de tênis. Grandes nomes do esporte se
-                    enfrentarão nas quadras locais em busca do título. A competição promete trazer
-                    uma intensa disputa e atrair a atenção de fãs de tênis de todo o mundo, impulsionando o turismo
-                    esportivo e fortalecendo a imagem da cidade como destino para grandes eventos
-                    esportivos.
-                </p>
-            </article>
-            <h2 id="entretenimento">Entretenimento</h2>
-            <article>
-                <h3>Cantor internacional confirmado para show exclusivo na cidade</h3>
-                <p>
-                    O famoso cantor internacional confirmou uma apresentação exclusiva na cidade. Os fãs poderão
-                    desfrutar de um show inesquecível, repleto de sucessos e performances marcantes. Os
-                    ingressos já estão à venda e a expectativa é que o evento esgote rapidamente, dada a popularidade do
-                    artista.
-                </p>
-            </article>
-            <article>
-                <h3>Exposição de arte contemporânea traz obras de artistas renomados ao museu.</h3>
-                <p>
-                    Uma exposição de arte contemporânea será aberta ao público no principal museu da cidade. A mostra
-                    apresentará obras de artistas renomados, explorando diversas expressões
-                    artísticas e abordando temas relevantes da atualidade. A exposição promete ser uma experiência
-                    enriquecedora para os amantes da arte e uma oportunidade única de apreciar
-                    trabalhos de artistas reconhecidos.
-                </p>
-            </article>
-        </section>
-    </main>
-    <footer>
-        &copy; Todos os direitos reservados PortoNews & SoulCode Academy.
-        <br />
-        <a href="">Facebook</a>
-        <a href="">Instagram</a>
-        <a href="">Twitter</a>
-        <a href="./contato.html">Contato</a>
-    </footer>
-</body>
-
+            </section>
+            <section>
+                <h2 title="cabeçalho" id="artigos">Artigos recentes</h2>
+                <article>
+                    <h3 id="artigo1">Descoberta revolucionária na área da medicina promete tratar doenças crônicas</h3>
+                    <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-4.0.3" alt="Frascos de exame sangue de laboratório" width="350" />
+                    <p>
+                        Pesquisadores anunciaram uma descoberta revolucionária na área da medicina que pode ter um impacto significativo no tratamento de doenças crônicas. Um novo medicamento,
+                        desenvolvido após anos de pesquisa intensiva, mostrou resultados promissores em testes clínicos.
+                        <a href="./pages/artigo1.html">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo2">Novo estudo revela aumento alarmante de casos de estresse relacionado ao trabalho</h3>
+                    <img
+                        src="https://images.unsplash.com/photo-1621252179027-94459d278660?ixlib=rb-4.0.3"
+                        alt="imagem de uma mulher sentada em uma mesa de escritório, em frente a notebook, com as mãos na cabeça demonstrando estresse"
+                        width="350"
+                    />
+                    <p>
+                        Um novo estudo revelou um aumento alarmante nos casos de estresse relacionado ao trabalho em todo o mundo. Pesquisadores analisaram dados de diferentes setores e constataram
+                        que o estresse ocupacional está se tornando uma questão cada vez mais preocupante.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo3">Novo smartphone com recursos inovadores é lançado no mercado</h3>
+                    <img src="https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-4.0.3" alt="imagem de tela de celular onde diversos ícones aplicativos são visíveis" width="350" />
+                    <p>
+                        Uma renomada empresa de tecnologia acaba de lançar seu mais recente smartphone, que promete revolucionar o mercado. Com recursos inovadores e um design elegante, o novo
+                        dispositivo oferece uma experiência única aos usuários.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo4">Crescimento econômico impulsiona setor de tecnologia e gera oportunidades de emprego</h3>
+                    <img src="https://images.unsplash.com/photo-1614028674026-a65e31bfd27c" alt="imagem de notebook sob mesa com gráficos que representam crescimento da economia" width="350" />
+                    <p>
+                        O recente crescimento econômico do país está impulsionando o setor de tecnologia, que se tornou um dos principais motores da economia.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo5">Nova descoberta científica revela potencial para tratamento revolucionário de doenças</h3>
+                    <img src="https://images.unsplash.com/photo-1575468130797-aa950b68aeec" alt="Mulher com equipamentos de laboratório segura plaquetas de pequisa de moléculas" width="350" />
+                    <p>
+                        Pesquisadores de uma renomada instituição de pesquisa anunciaram a identificação de uma molécula promissora com propriedades terapêuticas.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo6">Projeto inovador busca combater a poluição dos oceanos com tecnologia avançada</h3>
+                    <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f" alt="Imagem submersa de oceano com resíduos de lixos em meio a peixes nadando" width="350" />
+                    <p>
+                        Um projeto inovador está em andamento com o objetivo de enfrentar um dos maiores desafios ambientais da atualidade: a poluição dos oceanos.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo7">Estudo revela os benefícios da atividade física regular para a saúde mental</h3>
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b" alt="Mulher exercitando-se através de ioga em uma paisagem de lago e pôr-do-sol" width="350" />
+                    <p>
+                        Pesquisadores analisaram os efeitos da prática regular de exercícios em um grupo de participantes ao longo de um período de seis meses.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo8">Avanços tecnológicos prometem revolucionar o setor de transporte urbano</h3>
+                    <img src="https://images.unsplash.com/photo-1628363602988-4afea1b4d20e" alt="Autocarro com design inovador" width="350" />
+                    <p>
+                        Os avanços tecnológicos estão impulsionando transformações significativas no setor de transporte urbano, prometendo revolucionar a forma como nos deslocamos pelas cidades.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo9">Exposição de arte contemporânea traz reflexões sobre identidade e diversidade</h3>
+                    <img src="https://images.unsplash.com/photo-1559537696-55ba84f4ded2" alt="Quadro de perfil de uma pessoa em uma exposição de arte" width="350" />
+                    <p>
+                        Uma emocionante exposição de arte contemporânea está em exibição em um renomado museu, trazendo reflexões profundas sobre identidade e diversidade.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+                <article>
+                    <h3 id="artigo10">Cientistas descobrem nova espécie de planta com propriedades medicinais</h3>
+                    <img src="https://images.unsplash.com/photo-1609138429624-82b48e5f4cb0" alt="Plantas sendo reproduzidas em frascos de laboratório" width="350" />
+                    <p>
+                        Uma equipe de cientistas fez uma descoberta emocionante no campo da botânica: a identificação de uma nova espécie de planta com propriedades medicinais.
+                        <a href="">Saiba mais</a>
+                    </p>
+                </article>
+            </section>
+            <section>
+                <h2 id="melhores-autores">Classificação dos melhores autores de notícias</h2>
+                <ol>
+                    <li>João Silva (245 artigos)</li>
+                    <li>Maria Santos (201 artigos)</li>
+                    <li>Carlos Oliveira (178 artigos)</li>
+                    <li>Ana Costa (162 artigos)</li>
+                    <li>Pedro Fernandes (148 artigos)</li>
+                    <li>Laura Almeida (134 artigos)</li>
+                    <li>André Lima (120 artigos)</li>
+                    <li>Sofia Pereira (107 artigos)</li>
+                </ol>
+            </section>
+            <section>
+                <h2 id="assista-video">Assista notícias em vídeo</h2>
+                <iframe
+                    width="400"
+                    height="315"
+                    src="https://www.youtube.com/embed/Z-8M2tuPSn4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe
+                    width="400"
+                    height="315"
+                    src="https://www.youtube.com/embed/koh90HN__FY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                >
+                </iframe>
+                <iframe
+                    width="400"
+                    height="315"
+                    src="https://www.youtube.com/embed/j2r0lqrzzZA"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                >
+                </iframe>
+            </section>
+            <section>
+                <h2 id="noticias-populares">Notícias mais populares da semana</h2>
+                <table border="1px">
+                    <thead>
+                        <tr>
+                            <th>Título da notícia</th>
+                            <th>Data</th>
+                            <th>Visualizações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Descoberta revolucionária na área da medicina</td>
+                            <td>25/06/2023</td>
+                            <td>1,245,678</td>
+                        </tr>
+                        <tr>
+                            <td>Novo filme de ação quebra recordes de bilheteria</td>
+                            <td>24/06/2023</td>
+                            <td>1,102,543</td>
+                        </tr>
+                        <tr>
+                            <td>Resultados do campeonato de futebol surpreendem fãs</td>
+                            <td>23/06/2023</td>
+                            <td>987,321</td>
+                        </tr>
+                        <tr>
+                            <td>Lançamento do novo smartphone revoluciona o mercado</td>
+                            <td>22/06/2023</td>
+                            <td>856,721</td>
+                        </tr>
+                        <tr>
+                            <td>Celebridades comparecem ao tapete vermelho do evento</td>
+                            <td>21/06/2023</td>
+                            <td>765,432</td>
+                        </tr>
+                        <tr>
+                            <td>Pesquisa revela os melhores destinos turísticos do ano</td>
+                            <td>20/06/2023</td>
+                            <td>654,321</td>
+                        </tr>
+                        <tr>
+                            <td>Descoberta arqueológica revela segredos do passado</td>
+                            <td>19/06/2023</td>
+                            <td>543,210</td>
+                        </tr>
+                        <tr>
+                            <td>Acordo histórico é assinado entre países vizinhos</td>
+                            <td>18/06/2023</td>
+                            <td>432,109</td>
+                        </tr>
+                        <tr>
+                            <td>Lançamento de livro se torna um fenômeno literário</td>
+                            <td>17/06/2023</td>
+                            <td>321,098</td>
+                        </tr>
+                        <tr>
+                            <td>Artista renomado expõe suas obras em galeria de arte</td>
+                            <td>16/06/2023</td>
+                            <td>210,987</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2 id="noticias-locais">Notícias locais</h2>
+                <article>
+                    <h3>Novo parque urbano é inaugurado, proporcionando lazer e convívio social</h3>
+                    <p>
+                        A prefeitura anunciou a inauguração de um novo parque urbano no coração da cidade. O parque conta com amplas áreas verdes, trilhas para caminhadas e espaços de lazer para toda
+                        a família. Além disso, haverá eventos culturais e esportivos regulares, proporcionando mais opções de entretenimento e convívio social para os moradores locais.
+                    </p>
+                </article>
+                <article>
+                    <h3>Centro histórico passará por revitalização para preservar patrimônio cultural</h3>
+                    <p>
+                        Um projeto de revitalização do centro histórico foi aprovado pela câmara municipal. Com o intuito de preservar o patrimônio arquitetônico e cultural da região, o projeto prevê
+                        a restauração de prédios históricos, a criação de áreas de pedestres e a promoção de eventos culturais. Essa iniciativa visa reavivar o centro da cidade, tornando-o um destino
+                        atraente para turistas e residentes.
+                    </p>
+                </article>
+                <h2 id="politica">Política</h2>
+                <article>
+                    <h3>Decreto presidencial busca promover igualdade de gênero no mercado de trabalho</h3>
+                    <p>
+                        O presidente assinou um decreto que estabelece medidas para promover a igualdade de gênero no mercado de trabalho. O decreto incentiva empresas a adotarem políticas de equidade
+                        salarial e a implementarem ações afirmativas para garantir a participação igualitária de mulheres em cargos de liderança. Essa iniciativa visa combater a discriminação de
+                        gênero e promover uma sociedade mais justa e inclusiva.
+                    </p>
+                </article>
+                <article>
+                    <h3>Nova lei fortalece o sistema de saúde pública e amplia acesso a tratamentos</h3>
+                    <p>
+                        Durante a sessão parlamentar, foi aprovada uma nova lei que visa melhorar o sistema de saúde pública. A lei destina mais recursos para a construção e modernização de hospitais,
+                        amplia o acesso a tratamentos médicos e estabelece diretrizes para a prevenção de doenças. Com essa medida, espera-se uma melhoria significativa na qualidade dos serviços de
+                        saúde oferecidos à população.
+                    </p>
+                </article>
+                <h2 id="esportes">Esportes</h2>
+                <article>
+                    <h3>Time local conquista título estadual com gol no último minuto</h3>
+                    <p>
+                        O time local conquistou o título de campeão estadual no último jogo da temporada. Em uma partida emocionante, a equipe venceu por 2 a 1, com um gol marcado nos acréscimos do
+                        segundo tempo. A vitória coroou uma temporada de grandes performances e dedicação dos jogadores, deixando os torcedores eufóricos com o resultado.
+                    </p>
+                </article>
+                <article>
+                    <h3>Cidade sediará importante torneio internacional de tênis</h3>
+                    <p>
+                        A cidade será sede de um importante torneio internacional de tênis. Grandes nomes do esporte se enfrentarão nas quadras locais em busca do título. A competição promete trazer
+                        uma intensa disputa e atrair a atenção de fãs de tênis de todo o mundo, impulsionando o turismo esportivo e fortalecendo a imagem da cidade como destino para grandes eventos
+                        esportivos.
+                    </p>
+                </article>
+                <h2 id="entretenimento">Entretenimento</h2>
+                <article>
+                    <h3>Cantor internacional confirmado para show exclusivo na cidade</h3>
+                    <p>
+                        O famoso cantor internacional confirmou uma apresentação exclusiva na cidade. Os fãs poderão desfrutar de um show inesquecível, repleto de sucessos e performances marcantes. Os
+                        ingressos já estão à venda e a expectativa é que o evento esgote rapidamente, dada a popularidade do artista.
+                    </p>
+                </article>
+                <article>
+                    <h3>Exposição de arte contemporânea traz obras de artistas renomados ao museu.</h3>
+                    <p>
+                        Uma exposição de arte contemporânea será aberta ao público no principal museu da cidade. A mostra apresentará obras de artistas renomados, explorando diversas expressões
+                        artísticas e abordando temas relevantes da atualidade. A exposição promete ser uma experiência enriquecedora para os amantes da arte e uma oportunidade única de apreciar
+                        trabalhos de artistas reconhecidos.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            &copy; Todos os direitos reservados PortoNews & SoulCode Academy.
+            <br />
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">Twitter</a>
+            <a href="./contato.html">Contato</a>
+        </footer>
+    </body>
 </html>
