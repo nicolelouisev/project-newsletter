@@ -17,6 +17,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
         <link rel="stylesheet" href="./css/index.css" />
         <title>PortoNews</title>
     </head>
@@ -33,10 +34,10 @@
             </nav>
         </header>
         <main>
-            <section>
+            <section class="links">
                 <ul>
                     <li><a href="#artigos">Artigos recentes</a></li>
-                    <ul>
+                    <ul class="bullet-list">
                         <li><a href="#artigo1">Descoberta revolucionária na área da medicina promete tratar doenças crônicas</a></li>
                         <li><a href="#artigo2">Novo estudo revela aumento alarmante de casos de estresse relacionado ao trabalho</a></li>
                         <li><a href="#artigo3">Novo smartphone com recursos inovadores é lançado no mercado</a></li>
@@ -48,12 +49,13 @@
                         <li><a href="#artigo9">Exposição de arte contemporânea traz reflexões sobre identidade e diversidade</a></li>
                         <li><a href="#artigo10">Cientistas descobrem nova espécie de planta com propriedades medicinais</a></li>
                     </ul>
-                    <li><a href="#melhores-autores">Melhores autores</a></li>
-                    <li><a href="#assista-video">Assista em vídeo</a></li>
-                    <li><a href="#noticias-populares">Notícias mais populares</a></li>
+                        <li><span class="bullet"></span> <a href="#melhores-autores">Melhores autores</a></li>
+                        <li><span class="bullet"></span> <a href="#assista-video">Assista em vídeo</a></li>
+                        <li><span class="bullet"></span> <a href="#noticias-populares">Notícias mais populares</a></li>
+                    </ul>
                 </ul>
             </section>
-            <section>
+            <section class="artigos">
                 <h2 title="cabeçalho" id="artigos">Artigos recentes</h2>
                 <article>
                     <h3 id="artigo1">Descoberta revolucionária na área da medicina promete tratar doenças crônicas</h3>
@@ -74,7 +76,7 @@
                     <p>
                         Um novo estudo revelou um aumento alarmante nos casos de estresse relacionado ao trabalho em todo o mundo. Pesquisadores analisaram dados de diferentes setores e constataram
                         que o estresse ocupacional está se tornando uma questão cada vez mais preocupante.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo2.html">Saiba mais</a>
                     </p>
                 </article>
                 <article>
@@ -83,7 +85,7 @@
                     <p>
                         Uma renomada empresa de tecnologia acaba de lançar seu mais recente smartphone, que promete revolucionar o mercado. Com recursos inovadores e um design elegante, o novo
                         dispositivo oferece uma experiência única aos usuários.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo3.html">Saiba mais</a>
                     </p>
                 </article>
                 <article>
@@ -91,7 +93,7 @@
                     <img src="https://images.unsplash.com/photo-1614028674026-a65e31bfd27c" alt="imagem de notebook sob mesa com gráficos que representam crescimento da economia" width="350" />
                     <p>
                         O recente crescimento econômico do país está impulsionando o setor de tecnologia, que se tornou um dos principais motores da economia.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo4.html">Saiba mais</a>
                     </p>
                 </article>
                 <article>
@@ -99,7 +101,7 @@
                     <img src="https://images.unsplash.com/photo-1575468130797-aa950b68aeec" alt="Mulher com equipamentos de laboratório segura plaquetas de pequisa de moléculas" width="350" />
                     <p>
                         Pesquisadores de uma renomada instituição de pesquisa anunciaram a identificação de uma molécula promissora com propriedades terapêuticas.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo5.html">Saiba mais</a>
                     </p>
                 </article>
                 <article>
@@ -107,7 +109,7 @@
                     <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f" alt="Imagem submersa de oceano com resíduos de lixos em meio a peixes nadando" width="350" />
                     <p>
                         Um projeto inovador está em andamento com o objetivo de enfrentar um dos maiores desafios ambientais da atualidade: a poluição dos oceanos.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo6.html">Saiba mais</a>
                     </p>
                 </article>
                 <article>
@@ -115,7 +117,7 @@
                     <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b" alt="Mulher exercitando-se através de ioga em uma paisagem de lago e pôr-do-sol" width="350" />
                     <p>
                         Pesquisadores analisaram os efeitos da prática regular de exercícios em um grupo de participantes ao longo de um período de seis meses.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo7.html">Saiba mais</a>
                     </p>
                 </article>
                 <article>
@@ -123,7 +125,7 @@
                     <img src="https://images.unsplash.com/photo-1628363602988-4afea1b4d20e" alt="Autocarro com design inovador" width="350" />
                     <p>
                         Os avanços tecnológicos estão impulsionando transformações significativas no setor de transporte urbano, prometendo revolucionar a forma como nos deslocamos pelas cidades.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo8.html">Saiba mais</a>
                     </p>
                 </article>
                 <article>
@@ -131,7 +133,7 @@
                     <img src="https://images.unsplash.com/photo-1559537696-55ba84f4ded2" alt="Quadro de perfil de uma pessoa em uma exposição de arte" width="350" />
                     <p>
                         Uma emocionante exposição de arte contemporânea está em exibição em um renomado museu, trazendo reflexões profundas sobre identidade e diversidade.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo9.html">Saiba mais</a>
                     </p>
                 </article>
                 <article>
@@ -139,7 +141,7 @@
                     <img src="https://images.unsplash.com/photo-1609138429624-82b48e5f4cb0" alt="Plantas sendo reproduzidas em frascos de laboratório" width="350" />
                     <p>
                         Uma equipe de cientistas fez uma descoberta emocionante no campo da botânica: a identificação de uma nova espécie de planta com propriedades medicinais.
-                        <a href="">Saiba mais</a>
+                        <a href="./pages/artigo10.html">Saiba mais</a>
                     </p>
                 </article>
             </section>
@@ -253,7 +255,7 @@
                     </tbody>
                 </table>
             </section>
-            <section>
+            <section class="noticias">
                 <h2 id="noticias-locais">Notícias locais</h2>
                 <article>
                     <h3>Novo parque urbano é inaugurado, proporcionando lazer e convívio social</h3>
@@ -322,12 +324,11 @@
             </section>
         </main>
         <footer>
-            &copy; Todos os direitos reservados PortoNews & SoulCode Academy.
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
             <br />
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
-            <a href="">Twitter</a>
-            <a href="./contato.html">Contato</a>
+            <span class="rights">&copy; Todos os direitos reservados PortoNews & SoulCode Academy.</span>
         </footer>
     </body>
 </html>
