@@ -16,8 +16,17 @@ header {
     padding: 20px;
 }
 
-h1 {
-    margin: 0px 20px;
+main {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav {
@@ -38,73 +47,22 @@ nav a:hover {
     border-color: white;
 }
 
-main {
-    margin-bottom: 60px;
-    margin-left: 50px;
-}
-
-section {
-    margin-top: 50px;
-}
-
 h2 {
-    margin-bottom: 20px;
-}
-
-.links {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.bullet-list li {
-    margin-left: 10px;
-}
-
-/* COMEÇA AQUI ARTIGOS */
-.artigos {
-    display: flex;
-    flex-direction: column;
-    /* max-width: 60%; */
-}
-
-article {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 20px;
-    background-color: #eaf0f6;
-    border-radius: 8px;
-    padding: 20px;
-}
-
-h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    margin: 20px;
+
 }
 
 p {
-    margin-bottom: 10px;
-}
-
-a {
-    color: #0000ff;
-    text-decoration: none;
-}
-
-/* TERMINA AQUI */
-
-/* NOTÍCIAS */
-.noticias {
-    margin-top: 50px;
-    /* max-width: 60%; */
-}
-
-.noticias h2 {
     margin-bottom: 20px;
+    font-size: 20px;
+    padding: 0 50px 0 50px;
+    text-align: justify;
 }
 
 footer {
@@ -113,8 +71,8 @@ footer {
     color: white;
     width: 100%;
     text-align: center;
+    padding: 10px;
     bottom: 0;
-    padding: 10px 0 10px 0;
     height: 60px;
 }
 
